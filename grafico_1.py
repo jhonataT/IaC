@@ -10,7 +10,7 @@ plt.plot(read['Ano'], read['manchas'], color = 'Red')
 plt.xlabel('Ano', color = 'Red')
 plt.ylabel('Manchas', color = 'Red')
 plt.xticks(rotation = 90)
-plt.grid(b = True)
+plt.grid(True)
 
 plt.savefig('primeiro_grafico.png')
 
