@@ -8,7 +8,7 @@ read = pd.read_csv("a2_MANCHAS.csv").iloc[166:]
 plt.title('Número de manchas solares de Wolfer;\n 10 ultimos resultados:', color = 'Blue')
 plt.plot(read['Ano'], read['manchas'], color = 'Blue')
 plt.xlabel('Ano', color = 'blue')
-plt.ylabel('Manchas', color = 'blue')
+plt.ylabel('Manchas(Wolfer)', color = 'blue')
 plt.xticks(rotation = 90)
 plt.grid(True)
 
