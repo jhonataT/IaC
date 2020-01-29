@@ -11,7 +11,7 @@ plt.plot(read['Ano'], read['manchas'], color = 'Red')
 plt.xlabel('Ano', color = 'Red')
 plt.ylabel('Manchas', color = 'Red')
 plt.xticks(rotation = 90)
-plt.grid(b = True)
+plt.grid(True)
 
 plt.savefig('primeiro_grafico.png')
 
@@ -27,7 +27,7 @@ plt.plot(read['Ano'], read['manchas'], color = 'Green')
 plt.xlabel('Ano', color = 'Green')
 plt.ylabel('Manchas', color = 'Green')
 plt.xticks(rotation = 90)
-plt.grid(b = True)
+plt.grid(True)
 
 plt.savefig('segundo_grafico.png')
 
@@ -43,7 +43,7 @@ plt.plot(read['Ano'], read['manchas'], color = 'Blue')
 plt.xlabel('Ano', color = 'blue')
 plt.ylabel('Manchas', color = 'blue')
 plt.xticks(rotation = 90)
-plt.grid(b = True)
+plt.grid(True)
 
 plt.savefig('terceiro_grafico.png')
 
@@ -57,7 +57,7 @@ read = pd.read_csv("a2_MANCHAS.csv")
 plt.title('Número de manchas solares de Wolfer;\n', color = 'Black')
 plt.ylabel('Manchas Solares')
 read.boxplot(column = 'manchas')
-plt.grid(b = True)
+plt.grid(True)
 
 plt.savefig('quarto_grafico.png')
 
@@ -73,7 +73,7 @@ plt.plot(read['Ano'], read['manchas'], color = 'Y')
 plt.xlabel('Ano', color = 'Black')
 plt.ylabel('Manchas', color = 'Black')
 plt.xticks(rotation = 90)
-plt.grid(b = True)
+plt.grid(True)
 
 plt.savefig('quinto_grafico.png')
 
