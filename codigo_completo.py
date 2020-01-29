@@ -1,3 +1,4 @@
+    # Séries A2 (Manchas): Número de manchas solares de Wolfer; observações anuais de 1749 a 1924.
 import matplotlib.pyplot as plt
 import pandas as pd
 
