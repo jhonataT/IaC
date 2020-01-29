@@ -6,7 +6,7 @@ import pandas as pd
 read = pd.read_csv("a2_MANCHAS.csv")
 
 plt.title('Número de manchas solares de Wolfer;\n', color = 'Black')
-plt.ylabel('Manchas Solares')
+plt.ylabel('Manchas(Wolfer)')
 read.boxplot(column = 'manchas')
 plt.grid(True)
 
